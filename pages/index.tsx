@@ -47,13 +47,36 @@ export default function Home() {
     <>
       <Head>
         <title>Express Typescript</title>
-        <meta name="description" content="Setup your express application with typescript" />
+        <meta
+          name="description"
+          content="Setup your express application with typescript"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/appwink.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon_io/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon_io/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/favicon_io/site.webmanifest" />
       </Head>
       <div className={styles.wrapper}>
         <header className={styles.header}>
-          <Link href="https://github.com/creative-tutorials/express-typescript.git" className={styles.code}>
+          <Link
+            href="https://github.com/creative-tutorials/express-typescript.git"
+            className={styles.code}
+          >
             <svg
               width="20"
               height="20"
